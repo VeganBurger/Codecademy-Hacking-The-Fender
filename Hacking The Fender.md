@@ -1,10 +1,10 @@
-#Hacking The Fender
+# Hacking The Fender
 
 `The Fender`, a notorious computer hacker and general villain of the people, has compromised several top-secret passwords including your own. Your mission, should you choose to accept it, is threefold. You must acquire access to `The Fender`‘s systems, you must update his `"passwords.txt"` file to scramble the secret data. The last thing you need to do is add the signature of `Slash Null`, a different hacker whose nefarious deeds could be very conveniently halted by `The Fender` if they viewed `Slash Null` as a threat.
 
 Use your knowledge of working with Python files to retrieve, manipulate, obscure, and create data in your quest for justice. Work with CSV files and other text files in this exploration of the strength of Python file programming.
 
-##Reading In The Passwords
+## Reading In The Passwords
 
 1.
 Are you there? We’ve opened up a communications link to The Fender‘s secret computer. We need you to write a program that will read in the compromised usernames and passwords that are stored in a file called "passwords.csv".
@@ -56,7 +56,7 @@ Write the username of each compromised_user in compromised_users to compromised_
 11.
 Exit out of that with block. You’re doing great so far! We’ve got the data we need to employ as insurance against The Fender.
 
-##Notifying the Boss
+## Notifying the Boss
 
 12.
 Your boss needs to know that you were successful in retrieving that compromised data. We’ll need to send him an encoded message over the internet. Let’s use JSON to do that.
@@ -78,7 +78,7 @@ Also give it a "message" key with the value "Mission Success".
 Write out boss_message_dict to boss_message using json.dump().
 
 
-##Scrambling the Password
+## Scrambling the Password
 16.
 Now that we’ve safely recovered the compromised users we’ll want to remove the "passwords.csv" file completely.
 
